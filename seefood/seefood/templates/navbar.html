@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="/">
-                <img class="text-center" style="max-height: 50px" src="http://s.imgur.com/images/logo-1200-630.jpg?2" alt="imgur" />
+                <h4 class="text-center">SeeFood</h4>
             </a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -27,14 +27,7 @@
                 {% if not user.is_authenticated %}
                 <li><a href="/registration">Create Account</a></li>
                 {%endif%}
-                <li><a href='/random'><i class="fa fa-random fa-lg"></i></a></li>
               </ul>
-              <form class="navbar-form navbar-left" role="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Search">
-                </div>
-                <button type="submit" class="btn btn-default">Submit</button>
-              </form>
               <ul class="nav navbar-nav navbar-right">
                  <li class= "navbar-text"></li>
               </ul>
